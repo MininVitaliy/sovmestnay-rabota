@@ -1,7 +1,7 @@
 .intro {
   background-color: #FFFFFF;
   /*border: 1px solid red;*/
-  min-height: 485px;
+  /*min-height: 485px;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
