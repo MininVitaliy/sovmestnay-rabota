@@ -1,8 +1,8 @@
 .content__intro {
-  margin: 0 auto 92px 148px;
+  margin: 0 130px auto 70px;
 }
 
-@media screen and (max-width: 1140px) {
+/*@media screen and (max-width: 1140px) {
   .content__intro {
     margin: 0 auto 92px 48px;
   }
@@ -19,4 +19,4 @@
   .content__intro {
     padding: 0 16px 64px;
   }
-}
+}*/

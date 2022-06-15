@@ -3,8 +3,17 @@
   font-weight: 700;
   font-style:  normal;
   font-display: swap;
-  src: url(./OpenSans-Bold.woff2) format('woff2'),
+  src: url(./OpenSans-Bold-2.woff2) format('woff2'),
        url(./OpenSans-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open-Sans';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./OpenSans-Semibold.woff2) format("woff2"),
+       url(./OpenSans-Semibold.woff) format("woff");
 }
 
 @font-face {

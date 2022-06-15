@@ -1,0 +1,7 @@
+.intro__image {
+  max-width: 355px;
+  max-height: 355px;
+  background-position: center center;
+  object-fit: cover;
+  width: 100%;
+}

@@ -1,5 +1,5 @@
 .header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  color: #010101;
+  background-color: #FFFFFF;
+  /*border: 1px solid red;*/
 }

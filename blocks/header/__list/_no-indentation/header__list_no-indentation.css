@@ -1,0 +1,7 @@
+.header__list_no-indentation {
+  margin-right: 38px;
+}
+
+li:last-of-type .header__list_no-indentation {
+  margin-right: 0;
+}
