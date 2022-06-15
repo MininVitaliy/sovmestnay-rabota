@@ -1,0 +1,9 @@
+.people__grid {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, min-content);
+  grid-column-gap: 62px;
+  margin: 130px 0 0 0;
+  padding: 0;
+}

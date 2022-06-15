@@ -1,0 +1,7 @@
+.places {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(min-content, 532px));
+  gap: 0;
+}
