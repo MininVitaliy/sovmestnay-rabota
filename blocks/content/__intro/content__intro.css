@@ -2,13 +2,13 @@
   padding: 0 130px 130px 70px;
 }
 
-/*@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1170px) {
   .content__intro {
-    margin: 0 auto 92px 48px;
+    padding: 0 40px 40px 40px;
   }
 }
   
-@media screen and (max-width: 984px) {
+/*@media screen and (max-width: 984px) {
   .content__intro {
     padding: 0 24px 88px;
     margin: 0;
