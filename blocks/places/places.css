@@ -2,6 +2,13 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, minmax(min-content, 532px));
+  grid-template-rows: repeat(2, minmax(min-content, 532px)) minmax(min-content, 532px);
   gap: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content)) minmax(min-content, calc(100vw / 2.4));
+  }
 }
