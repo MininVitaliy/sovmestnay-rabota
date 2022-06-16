@@ -12,8 +12,8 @@
   font-style:  normal;
   font-weight: 600;
   font-display: swap;
-  src: url(./OpenSans-Semibold.woff2) format("woff2"),
-       url(./OpenSans-Semibold.woff) format("woff");
+  src: url(./OpenSans-Semibold.woff2) format('woff2'),
+       url(./OpenSans-Semibold.woff) format('woff');
 }
 
 @font-face {
@@ -21,8 +21,8 @@
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./OpenSans-Regular.woff2) format("woff2"),
-       url(./OpenSans-Regular.woff) format("woff");
+  src: url(./OpenSans-Regular.woff2) format('woff2'),
+       url(./OpenSans-Regular.woff) format('woff');
 }
 
 @font-face {

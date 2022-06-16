@@ -2,14 +2,25 @@
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
-  color: #000000;
+  color: #000;
   margin: 0;
 }
 
 @media screen and (max-width: 860px) {
   .people__text {
-  font-size: 10px;
-  line-height: 15px;
-  font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 300;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .people__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+
+
+

@@ -4,12 +4,20 @@
   font-size: 30px;
   line-height: 44px;
   font-weight: 700;
-  color: #010101;
+  color: #000;
 }
 
 @media screen and (max-width: 860px) {
   .places__title {
     font-size: 22px;
     line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places__title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
   }
 }

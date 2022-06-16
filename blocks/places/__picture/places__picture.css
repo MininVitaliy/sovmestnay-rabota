@@ -3,12 +3,24 @@
   max-height: 532px;
   object-position: center center;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
 }
 
 @media screen and (max-width: 1279px) {
   .places__picture {
    max-height: calc(100vw / 2.4);
   }
+}
+
+@media screen and (max-width: 600px) {
+  .places__picture:nth-child(1) {
+   grid-area: one;
+  }
+
+  .places__picture:nth-child(4) {
+    grid-area: three;
+   }
+
+   .places__picture:nth-child(5) {
+    grid-area: five;
+   }
 }

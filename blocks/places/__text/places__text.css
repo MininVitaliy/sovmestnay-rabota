@@ -11,12 +11,30 @@
 
 @media screen and (max-width: 1100px) {
   .places__text {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 20px 30px;
   }
 }
 
 @media screen and (max-width: 860px) {
   .places__text {
-    padding: 20px 15px 15px 15px;
+    padding: 20px 15px 15px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places__text:nth-child(2) {
+   grid-area: two;
+  }
+
+  .places__text:nth-child(3) {
+    grid-area: four;
+   }
+
+   .places__text:nth-child(6) {
+    grid-area: six;
+   }
+   .places__text {
+    padding: 20px 20px 15px;
   }
 }

@@ -3,13 +3,12 @@
   max-height: 355px;
   background-position: center center;
   object-fit: cover;
-  width: 100%;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 860px) {
   .intro__image {
     max-width: calc(100vw / (860 / 355));
     max-height: calc(100vw / (860 / 355));
-    margin-left: 20px;
   }
 }

@@ -3,3 +3,9 @@
   align-items: flex-end;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 600px) {
+  .header__search  {
+    align-items: flex-start;
+  }
+}

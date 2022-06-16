@@ -4,18 +4,18 @@
 
 @media screen and (max-width: 1170px) {
   .content__intro {
-    padding: 0 40px 40px 40px;
+    padding: 0 40px 40px;
   }
 }
   
 @media screen and (max-width: 860px) {
   .content__intro {
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 20px;
   }
 }
   
-/*@media screen and (max-width: 568px) {
+@media screen and (max-width: 600px) {
   .content__intro {
-    padding: 0 16px 64px;
+    padding: 0 0 20px 20px;
   }
-}*/
+}

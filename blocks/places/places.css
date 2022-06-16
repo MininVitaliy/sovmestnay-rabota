@@ -1,5 +1,5 @@
 .places {
-  max-width: 100%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, minmax(min-content, 532px)) minmax(min-content, 532px);
@@ -10,5 +10,20 @@
   .places {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, minmax(min-content, max-content)) minmax(min-content, calc(100vw / 2.4));
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, minmax(min-content, calc(100vw / 2.4)));
+
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six";
   }
 }
