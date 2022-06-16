@@ -1,3 +1,15 @@
 .content__people {
   padding: 0 65px 130px 65px;
 }
+
+@media screen and (max-width: 1170px) {
+  .content__people {
+    padding: 0 40px 40px 40px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .content__people {
+    padding: 0 20px 20px 20px;
+  }
+}

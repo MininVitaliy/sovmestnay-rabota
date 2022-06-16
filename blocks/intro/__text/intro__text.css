@@ -6,3 +6,11 @@
   text-transform: uppercase;
   margin: 0;
 }
+
+
+@media screen and (max-width: 860px) {
+  .intro__text {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}

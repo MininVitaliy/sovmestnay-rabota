@@ -5,3 +5,11 @@
   object-fit: cover;
   width: 100%;
 }
+
+@media screen and (max-width: 860px) {
+  .intro__image {
+    max-width: calc(100vw / (860 / 355));
+    max-height: calc(100vw / (860 / 355));
+    margin-left: 20px;
+  }
+}

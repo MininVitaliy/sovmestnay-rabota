@@ -7,8 +7,9 @@
   color: #010101;
 }
 
-@media screen and (max-width: 1070px) {
-  .content__intro {
-    padding: 0 40px 40px 40px;
+@media screen and (max-width: 860px) {
+  .places__title {
+    font-size: 22px;
+    line-height: 26px;
   }
 }
