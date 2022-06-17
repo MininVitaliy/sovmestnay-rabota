@@ -9,4 +9,4 @@
 5. media-запросов;
 6. шрифта OpenSans.
 
-Работа загружены [Git pages](https://mininvitaliy.github.io/sovmestnay-rabota/).
+Работа загружена [Git pages](https://mininvitaliy.github.io/sovmestnay-rabota/).
