@@ -11,6 +11,13 @@
   opacity: .3;
 }
 
+.header__list:active {
+  color: #1d38cf;
+  opacity: .8;
+}
+
+
+
 @media screen and (max-width: 860px) {
   .header__list {
   font-size: 12px;
